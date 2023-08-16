@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ลงทะเบียนเช่าพื้นที่แสดงสินค้า</title>
+</head>
+<body>
+    <h2>แบบฟอร์มลงทะเบียนเช่าพื้นที่แสดงสินค้า</h2>
+
+    <form action="#" method="post">
+        <label for="companyName">ชื่อบริษัท:</label><br>
+        <input type="text" id="companyName" name="companyName"><br><br>
+
+        <label for="boothSize">ขนาดบูธ:</label><br>
+        <select id="boothSize" name="boothSize">
+            <option value="10x10">10x10 ฟุต</option>
+            <option value="10x15">10x15 ฟุต</option>
+        </select><br><br>
+
+        <input type="checkbox" id="table" name="table" value="true">
+        <label for="table">ต้องการโต๊ะตั้งในบูธ</label><br><br>
+
+        <label for="chairNumber">จำนวนเก้าอี้:</label><br>
+        <input type="number" id="chairNumber" name="chairNumber" min="0"><br><br>
+
+        <label for="contactName">ชื่อผู้ติดต่อ:</label><br>
+        <input type="text" id="contactName" name="contactName"><br><br>
+
+        <label for="contactNumber">เบอร์ผู้ติดต่อ:</label><br>
+        <input type="tel" id="contactNumber" name="contactNumber"><br><br>
+
+        <input type="submit" value="ลงทะเบียน">
+    </form>
+    <script src="registerValidation.js"></script>
+</body>
+
+</body>
+</html>
